@@ -4,6 +4,6 @@ Hii  I am Koustav . I made website with HTML And CSS . Basically its a Gym Websi
 
 ### Demo 
 
-<img src="https://github.com/Koustav-Dey/Whatsapp-Bomber/blob/main/img/Output.png" />    
+<img src="https://github.com/Koustav-Dey/Gym-Website/blob/main/img/Gym.png" />    
 </a>&nbsp;&nbsp;
 
