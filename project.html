@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Koustav Dey" type="Devoloper">
+    <meta name="Robots" content="Index, Follow">
+    <meta name="description" content="HTML,CSS">
+    <meta name="keywords" content="gym, workout,gymlogo,sample page">
+    <title>CREATIVE GYM</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<style>
+    /* Css reset*/
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px;
+        padding: 0px;
+        background-image: url("img/4.jpg");
+        color: white;
+    }
+
+    /*/img{
+        position: absolute; 
+        height: 100vh;
+        width: 100vw;
+    }*/
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 22px;
+        display: inline-block;
+
+    }
+
+    .left img {
+        width: 125px;
+        filter: invert(100%);
+        margin: -31px 15px;
+    }
+
+    .mid {
+        display: block;
+        width: 53%;
+        margin: 33px auto;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+
+    }
+
+
+    .navbar li {
+        display: inline-block;
+        font-size: 31px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 13px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 16px 2px;
+        color: white;
+        background-color: black;
+        padding: 3px 14px;
+        border: 1px solid grey;
+        border-radius: 30px;
+        font-size: 17px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai', cursive;
+    }
+
+    .btn:hover {
+        background-color: grey;
+
+    }
+
+    .container {
+        border: 2px solid rgb(255, 255, 255);
+        margin: 106px 80px;
+        padding: 55px;
+        width: 40%;
+        border-radius: 50px;
+
+    }
+
+    .from-group input {
+        text-align: center;
+        display: block;
+        width: 448px;
+        padding: 5px;
+        border: 1px solid black;
+        margin: 10px auto;
+        font-size: 20px;
+        border-radius: 18px;
+        font-family: 'Baloo Bhai', cursive;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 77%;
+        margin: 24px auto;
+        border-radius: 15px;
+        font-size: 17px;
+    }
+
+    .rightdown {
+        display: inline-block;
+        position: absolute;
+        right: 8px;
+        top: 197px;
+        padding: 9px 160px
+    }
+
+    .rightdown h1 {
+        font-size: 50px;
+        font: 1px;
+    }
+
+    .rightdown p {
+        font-size: 25px;
+        margin: -51px -46px;
+
+    }
+</style>
+
+<body>
+    <!--<img src="1.jpg">-->
+    <header class="header">
+        <!-- Left box [logo] -->
+        <div class="left">
+            <img src="img/2.png">
+
+        </div>
+        <!-- Navigation Menu -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Fitness Calculate</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box [botton] -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+        <!--HEADING-->
+        <div class="rightdown">
+            <h1>CREATIVE GYM</h1>
+            <p>Join us to Increase Your Body Fitness</p>
+        </div>
+    </header>
+
+    <!--From-->
+    <div class="container">
+        <h1>Join the GYM of Asansol now</h1>
+        <from method="POST" action="no action.php">
+            <!--Backend Needed-->
+            <div class="from-group">
+                <input type="text" name="input" placeholder="Enter Your Name">
+            </div>
+            <div class="from-group">
+                <input type="text" name="address" placeholder="Enter Your Address">
+            </div>
+            <div class="from-group">
+                <input type="tel" name="tel" placeholder="Enter Your Phone No.">
+            </div>
+            <div class="from-group">
+                <input type="email" name="mail" placeholder="Enter Your Email ID">
+            </div>
+            <button class="btn">SUBMIT</button>
+
+        </from>
+    </div>
+</body>
+
+</html>
